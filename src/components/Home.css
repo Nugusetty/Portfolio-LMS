@@ -1,0 +1,24 @@
+.home {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  .home .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .home .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .dark-mode .home {
+    background-color: #333;
+  }
+  

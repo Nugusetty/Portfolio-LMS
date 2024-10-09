@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .home, .about, .projects, .contact {
+    padding: 20px;
+  }
+}
+
+
+:root {
+  --primary-color: #007bff;
+  --bg-color: #f9f9f9;
+  --text-color: #333;
+}
+
+.dark-mode {
+  --bg-color: #2b2b2b;
+  --text-color: #ddd;
+}
+
+.btn {
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
